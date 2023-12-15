@@ -1,0 +1,124 @@
+
+
+$primary: #E39061;
+$secondary: #293538;
+
+$primary-font: 'Dancing Script', cursive;
+$secondary-font: 'Tinos', serif;
+
+h1 {
+    font-family: $primary-font;
+    font-size: 2rem; 
+    font-weight: 700;
+    color: #ffffff; 
+    text-shadow: 
+    2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+
+.stroke{
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+  
+
+h2 {
+  font-family: $primary-font;
+  font-size: 1.8rem; 
+}
+
+h3 {
+  font-family: $primary-font;
+  font-size: 1.6rem; 
+}
+
+h4 {
+  font-family: $secondary-font;
+  font-size: 1rem; 
+  color: #ffffff; 
+}
+
+h5 {
+  font-family: $secondary-font;
+  font-size: 1.2rem; 
+}
+
+h6 {
+  font-family: $secondary-font;
+  font-size: 1rem; 
+}
+
+p {
+  font-family: $secondary-font;
+  font-size: 1rem; 
+}
+
+a {
+  font-family: $primary-font;
+  font-size: 1rem; 
+  color: #ffffff; 
+}
+
+body {
+  font-family: $primary-font; 
+}
+
+.btn-primary { 
+    font-family: $primary-font;
+    color: #ffffff; 
+    padding: 1rem;
+}
+
+.social-icons {
+    padding: 15px; 
+    
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.panel {
+    margin-top: 2rem 0; 
+    margin-bottom: 2rem 0; 
+    padding-left: 2rem; 
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-right: 1rem;
+    display: flex;
+   
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Adjust the text color */
+
+    
+}
+
+.overlay p {
+    margin: 0;
+}
+
+.navbar-brand h1 {
+    color: #fff; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 4rem; 
+    padding-right: 4rem; 
+    
+  }
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
