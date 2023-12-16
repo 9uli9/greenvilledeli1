@@ -15,12 +15,15 @@ h1, .h1 {
 
 h2, .h2 {
   font-family: "Dancing Script", cursive;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 h3, .h3 {
   font-family: "Dancing Script", cursive;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 
 h4, .h4 {
@@ -31,12 +34,12 @@ h4, .h4 {
 
 h5, .h5 {
   font-family: "Tinos", serif;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 
 h6, .h6 {
   font-family: "Tinos", serif;
-  font-size: 1rem;
+  font-size: 0.5rem;
 }
 
 p {
@@ -61,7 +64,12 @@ body {
 }
 
 .social-icons {
-  padding: 15px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.logo {
+  max-width: 80%;
 }
 
 .card {
@@ -332,7 +340,7 @@ h1, .h1 {
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
 
