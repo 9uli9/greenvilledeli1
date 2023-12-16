@@ -44,7 +44,7 @@ h6, .h6 {
 
 p {
   font-family: "Tinos", serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 a {
@@ -68,13 +68,18 @@ body {
   margin-right: 10px;
 }
 
+.img {
+  max-width: 100%;
+}
+
 .logo {
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .card {
   display: flex;
   align-items: center;
+  border: none;
 }
 
 .panel {

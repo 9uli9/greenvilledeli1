@@ -16,6 +16,8 @@ h1 {
   }
 
 
+
+
 .stroke{
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
@@ -53,8 +55,8 @@ h6 {
 }
 
 p {
-  font-family: $secondary-font;
-  font-size: 1rem; 
+    font-family: $secondary-font;
+    font-size: 0.8rem; 
 }
 
 a {
@@ -80,15 +82,18 @@ body {
    
 }
 
-
+.img {
+    max-width: 100%;
+}
 
 .logo {
-    max-width: 80%; 
+    max-width: 100%; 
 }
 
 .card {
     display: flex;
     align-items: center;
+    border: none;
     
 }
 
