@@ -35,7 +35,7 @@
 	
 
 		<nav class="navbar bg-secondary  ">
-			<div class="container-fluid ">
+			<div class="container-fluid justify-content-around">
 				<a class="navbar-brand" href="index.html"><h2 class="text-white ">Home</h2></a>
 				<svg xmlns="http://www.w3.org/2000/svg" height="8" width="8"
 					viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
@@ -61,9 +61,19 @@
 
 		<div class="container text-center">
 			<div class="row align-items-center">
-				<div class="col ">
-					<button class="btn btn-primary btn-lg w-50 mt-3 mb-3  " type="button">
-						<span class="h1 text-white ">Toastie</span>
+				<!-- Back Button -->
+				<div class="col-auto mr-auto">
+					<a href="breakfast.html">
+						<svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 512 512">
+							<!-- Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc. -->
+							<path fill="#293538" d="M177.5 414c-8.8 3.8-19 2-26-4.6l-144-136C2.7 268.9 0 262.6 0 256s2.7-12.9 7.5-17.4l144-136c7-6.6 17.2-8.4 26-4.6s14.5 12.5 14.5 22l0 72 288 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-288 0 0 72c0 9.6-5.7 18.2-14.5 22z"/>
+						</svg>
+					</a>
+				</div>
+				<!-- Original Button -->
+				<div class="col ml-auto">
+					<button class="btn btn-primary btn-lg w-50 mt-3 mb-3" type="button">
+						<span class="h1 text-white">Toastie</span>
 					</button>
 				</div>
 			</div>
@@ -79,20 +89,31 @@
 					<h5 class="text-center">Streaky Rashers Black Pudding, Pork Sausages And Our Homemade Spiced Ketchup
 						<h5 class="text-center">€5.50</h5>
 					</h5>
+
+					<div class="text-center py-3">
+
+						<button class="btn btn-primary btn-lg w-50 mt-3 mb-3" type="button">
+							<span class="h1 text-white">Customizations</span>
+						</button>
+					</div>
+
 				
-					<label for="bread" class="form-label h5">Choose Bread Type:</label>
+				
+					<label for="bread " class="form-label h5 ">Choose Bread Type:</label>
 					<select class="  form-select form-select-sm" id="bread">
 						<option class="h5" value="white">White Bread</option>
 						<option class="h5" value="whole_grain">Whole Grain Bread</option>
 						<option class="h5" value="sourdough">Sourdough</option>
 					</select>
 
+					
+
 					<div class="">
 						<div class="row">
 							<div class="col-md-6">
 								<div class="customization-options h5">
 									<div class="mt-3 mb-3">
-										<label for="bread" class="form-label">Customize:</label>
+										<label for="bread" class="form-label">Add:</label>
 										<div class="form-check">
 											<input class="form-check-input" type="checkbox" value="add_rashers" id="addRashers">
 											<label class="form-check-label" for="addRashers">Add Rashers (€1.00)</label>
@@ -105,6 +126,10 @@
 											<input class="form-check-input" type="checkbox" value="add_sausages" id="addSausages">
 											<label class="form-check-label" for="addSausages">Add Sausages (€1.00)</label>
 										</div>
+										<div class="form-check">
+											<input class="form-check-input" type="checkbox" value="add_tomatoes" id="addtomatoes">
+											<label class="form-check-label" for="addtomatoes">Add Tomatoes (€1.00)</label>
+										</div>
 										
 									</div>
 								</div>
@@ -116,7 +141,7 @@
 							<div class="col-md-6 mt-3 mt-md-0">
 								<div class="customization-options h5">
 									<div class="mt-3 mb-3">
-									<label for="bread" class="form-label">Customize:</label>
+									<label for="bread" class="form-label">Remove:</label>
 									<div class="form-check">
 										<input class="form-check-input" type="checkbox" value="remove_rashers" id="removeRashers">
 										<label class="form-check-label" for="removeRashers">Remove Rashers</label>
